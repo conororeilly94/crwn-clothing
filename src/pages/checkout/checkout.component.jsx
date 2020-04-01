@@ -10,7 +10,6 @@ import {
 } from "../../redux/cart/cart.selectors";
 
 import "./checkout.styles.scss";
-import cartDropdownComponent from "../../components/cart-dropdown/cart-dropdown.component";
 
 const CheckoutPage = ({ cartItems, total }) => (
   <div className="checkout-page">
